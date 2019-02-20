@@ -7,7 +7,7 @@ package empleados;
 
 
 import javax.swing.JOptionPane;
-import java.text.DecimalFormat;
+
 
 
 public class Empleado {   
