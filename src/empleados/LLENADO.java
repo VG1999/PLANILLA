@@ -11,7 +11,7 @@ public class LLENADO {
                 // calculo IGGS
             
                 calculo_IGSS = MatrizCalculoPlanilla[nfilas][1] * 0.0483;
-                MatrizCalculoPlanilla[nfilas][2] = ((double) Math.round(calculo_IGSS * 100d) / 100);
+                MatrizCalculoPlanilla[nfilas][2] = ((double) Math.round(calculo_IGSS * 10d) / 10);
 
                 // calculo ISR
                 double calculo_Deduccion_Legal = 48000 - calculo_IGSS * 12;
