@@ -19,7 +19,7 @@ public class Empleados {
         public static void main(String[] args) {
     int intOpcionesMenu = 0;
         do{
-             intOpcionesMenu= Integer.parseInt(JOptionPane.showInputDialog("Bienvenido que operacion desea realizar...\n1.Datos\n2.Salir"));
+             intOpcionesMenu= Integer.parseInt(JOptionPane.showInputDialog("Bienvenido que operacion desea realizar..\n1.Datos\n2.Salir"));
 
                      
              switch(intOpcionesMenu){
